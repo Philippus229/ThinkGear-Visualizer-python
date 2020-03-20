@@ -9,5 +9,5 @@ To use the built-in EEG signal visualization tool, just adjust the serial port t
 To use the device interface only, just copy and paste the class into your own code and use it as follows:<br>
 &nbsp;**1. Initialize:** my_device = ThinkGear(port, [baudrate])<br>
 &nbsp;**2. Fetch data:** my_device.fetch_data()<br>
-&nbsp;**3. Use data:** my_device.data["quality"/"heartrate"/"attention"/"meditation"/"8bit_raw"/"eeg_raw"/"eeg"]<br>
-&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;"eeg" => eeg["delta"/"theta"/"low-alpha"/"high-alpha"/"low-beta"/"high-beta"/"low-gamma"/"mid-gamma"]
+&nbsp;**3. Use data:** my_device.data["quality"/"heartrate"/"attention"/"meditation"/"8bit_raw"/"eeg_raw"/"eeg_asic"]<br>
+&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;"eeg_asic" => eeg["delta"/"theta"/"low-alpha"/"high-alpha"/"low-beta"/"high-beta"/"low-gamma"/"mid-gamma"]
