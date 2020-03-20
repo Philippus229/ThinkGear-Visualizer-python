@@ -11,5 +11,6 @@ To use the device interface only, just copy and paste the class into your own co
  my_device = ThinkGear(port, [baudrate])
 ### 2. Fetch data:
  my_device.fetch_data()
-### 3. Use data: my_device.data["quality"/"heartrate"/"attention"/"meditation"/"8bit_raw"/"eeg_raw"/"eeg"]
-    "eeg" => eeg["delta"/"theta"/"low-alpha"/"high-alpha"/"low-beta"/"high-beta"/"low-gamma"/"mid-gamma"]
+### 3. Use data:
+ my_device.data["quality"/"heartrate"/"attention"/"meditation"/"8bit_raw"/"eeg_raw"/"eeg"]
+     "eeg" => eeg["delta"/"theta"/"low-alpha"/"high-alpha"/"low-beta"/"high-beta"/"low-gamma"/"mid-gamma"]
