@@ -8,7 +8,7 @@ bands = ["delta","theta","low-alpha","high-alpha","low-beta","high-beta","low-ga
 
 #convert signed bit/byte array to int
 def signed_thing_to_int(b, length):
-    return b-((b >> (length-1)) & 1)*2**length #if first bit is 0, return b, otherwise subtract max value representable with given number of bits and return
+    return b-((b >> (length-1)) & 1)*2**length #return b if first bit is 0, otherwise subtract max value representable with given number of bits and return
 
 '''EEG Device Class'''
 class ThinkGear(object):
