@@ -6,8 +6,8 @@ Very compact NeuroSky ThinkGear (Force Trainer II, MindFlex,...) interface and r
 
 ## Usage
 To use the built-in EEG signal visualization tool, just adjust the serial port to your configuration, connect your EEG device and launch the script.
-To use the device interface only, just copy and paste the class into your own code and use it as follows:
- **1. Initialize:** my_device = ThinkGear(port, [baudrate])
- **2. Fetch data:** my_device.fetch_data()
- **3. Use data:** my_device.data["quality"/"heartrate"/"attention"/"meditation"/"8bit_raw"/"eeg_raw"/"eeg"]
-              "eeg" => eeg["delta"/"theta"/"low-alpha"/"high-alpha"/"low-beta"/"high-beta"/"low-gamma"/"mid-gamma"]
+To use the device interface only, just copy and paste the class into your own code and use it as follows:<br>
+ **1. Initialize:** my_device = ThinkGear(port, [baudrate])<br>
+ **2. Fetch data:** my_device.fetch_data()<br>
+ **3. Use data:** my_device.data["quality"/"heartrate"/"attention"/"meditation"/"8bit_raw"/"eeg_raw"/"eeg"]<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;"eeg" => eeg["delta"/"theta"/"low-alpha"/"high-alpha"/"low-beta"/"high-beta"/"low-gamma"/"mid-gamma"]
